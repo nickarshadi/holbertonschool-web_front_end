@@ -190,11 +190,11 @@ ul.row {
   clear: both;
 }
 
+.footer {
+  padding: var(--footer-padding);
+}
+
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
-}
-
-.footer {
-  padding: var(--footer-padding);
 }
