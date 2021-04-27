@@ -195,6 +195,12 @@ ul.row {
   padding: var(--footer-padding);
 }
 
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+}
+
 .footer-adress {
   color: var(--text-color);
 }
@@ -205,10 +211,4 @@ ul.row {
 
 .social-link > svg {
   fill: var(--text-color);
-}
-
-[data-section-theme="dark"] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  background-color: var(--color-black);
 }
