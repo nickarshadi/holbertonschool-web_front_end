@@ -326,7 +326,7 @@ ul.row {
   overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img{
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -350,7 +350,7 @@ ul.row {
   margin: 0;
   opacity: 0;
   height: 100%;
-  position:relative;
+  position: relative;
 }
 
 .card-work .card-title a {
@@ -359,15 +359,29 @@ ul.row {
   padding-top: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
+  content: "";
   position: absolute;
   top: 0;
-  right: 0;
   left: 0;
   bottom: 0;
-  content: "";
+  right: 0;
 }
 
 .card-work:hover .card-title {
   opacity: 1;
+}
+
+.card-testimonial .card-quote {
+  position: relative;
+}
+
+.card-testimonial .card-quote::before {
+  content: "\201C";
+  position:absolute;
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: -1;
 }
