@@ -359,13 +359,13 @@ ul.row {
   padding-top: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
+  content: "";
   position: absolute;
   top: 0;
-  right: 0;
   left: 0;
   bottom: 0;
-  content: "";
+  right: 0;
 }
 
 .card-work:hover .card-title {
