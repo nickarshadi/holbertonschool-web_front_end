@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem 1rem;
 }
 
-ul .row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
