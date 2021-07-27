@@ -196,6 +196,6 @@ ul .row {
 }
 
 [class^="col-"] {
-  float: left !important;
-  padding: 0.5rem !important;
+  float: left;
+  padding: 0.5rem;
 }
