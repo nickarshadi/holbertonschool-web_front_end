@@ -2,8 +2,8 @@
 $value: 1;
 @while $value < 6 {
     h#{$value} {
-        font-size: $value;
+        font-size: $value + 0px;
     }
-    $value: $value + 1px;
+    $value: $value + 1;
 
 }
