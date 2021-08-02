@@ -1,9 +1,6 @@
 /*Loop Header*/
-$value: 1;
-@while $value < 6 {
-    h#{$value} {
-        font-size: $value + 0px;
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: $i + 0px;
     }
-    $value: $value + 1;
-
 }
