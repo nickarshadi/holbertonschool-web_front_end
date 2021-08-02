@@ -1,0 +1,9 @@
+/*Loop Header*/
+$value: 1;
+@while $value < 6 {
+    h#{$value} {
+        font-size: $value;
+    }
+    $value: $value + 1px;
+
+}
