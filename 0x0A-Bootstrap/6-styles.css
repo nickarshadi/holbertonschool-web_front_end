@@ -1,0 +1,38 @@
+.btn-primary {
+    background-color: #E0003C;
+    border: none;
+}
+
+.btn-primary :active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #BC1340 ;
+}
+
+.btn-outline-primary {
+   border: 1px solid #E0003C;
+   color: #E0003C;
+}
+
+a , a:hover, a:focus{
+    color:#E0003C;
+}
+
+.card {
+    border: 1px solid #E0003C;
+    border-radius: 1rem;
+}
+
+.card .card-header, .card .card-footer {
+    color: white;
+    background: #e0003c;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    border: 1px solid #E0003C;
+}
+
+.text-muted {
+    color: #8C8C8C;
+}
+
+.border-bottom {
+    border-bottom: 1.5px solid #E0003C !important;
+}
