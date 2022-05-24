@@ -6,8 +6,8 @@
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
 
-  --font-family-base: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -43,6 +43,11 @@ body {
   line-height: var(--line-height-base);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
 a {
   color: var(--text-color);
   text-decoration: none;
@@ -57,7 +62,7 @@ a {
 }
 
 .section-header {
-text-align: var(--section-header-align);
+  text-align: var(--section-header-align);
 }
 
 .section-title {
@@ -72,10 +77,5 @@ text-align: var(--section-header-align);
   color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
