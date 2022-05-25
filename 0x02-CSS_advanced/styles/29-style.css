@@ -328,3 +328,9 @@ ul.row {
   background-color: var(--color-primary);
   width: 100%;
 }
+
+.card-work .card-outer {
+  position: relative;
+  overflow: hidden;
+
+}
