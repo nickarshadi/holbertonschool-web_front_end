@@ -411,6 +411,6 @@ ul.row {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-card-work:hover .card-image {
+.card-work:hover .card-image {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
